@@ -1,6 +1,9 @@
 name: @name@
-main: @groupId@.@name@.@name@
+main: @groupId@.@name@
 version: @version@
 author: @author@
 api-version: @apiVersion@
-
+commands:
+ inventorysee:
+  description: See another player's inventory.
+  aliases: [invsee, invinspect]  
